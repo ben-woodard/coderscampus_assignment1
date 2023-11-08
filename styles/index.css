@@ -1,0 +1,85 @@
+
+/*General Page/ Element Styling  */
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(46, 18, 190, 1);
+    color: white;
+}
+button{
+    border: 1px solid orange;
+    border-radius: 2.5rem;
+    padding: .5rem 1rem;
+    background-image: linear-gradient(to right, orange 30%, rgba(242, 121, 53) 80%);
+    color: white;
+    font-size: 1rem;
+}
+
+
+p{
+    opacity: .7;
+}
+
+/* Navigation Bar Styling */
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#brainFmLogo{
+    margin:0 0 0 2rem;
+}
+
+.navInfoRight{
+    display: flex;
+    align-items: center;
+}
+#signIn{
+    margin: 0 1rem 0 0;
+}
+
+/* Main - Top Section Styling */
+
+main{
+    margin: 15rem 2rem;
+}
+
+.mainTop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.mainTopInformation{
+    width: 50%;    
+    display: block;
+    position: relative; top: -.25rem;
+    line-height: 2rem;
+    z-index: 99;
+    height: 20rem;
+}
+
+
+#mainHeader1{
+    font-weight: 100;
+    margin-right: -2rem;
+}
+.mainTopInformation p{
+    margin-right: -2.5rem;
+
+}
+#mainHeader2{
+    font-weight: bold;
+}
+.mainTopInformation button{
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+}
+
+
+.mainTopImage img{
+    width: 100%;
+
+}
